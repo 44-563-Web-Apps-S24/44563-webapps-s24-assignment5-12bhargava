@@ -48,6 +48,87 @@
       <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment5-12bhargava/blob/main/Image%202.jpg?raw=true" class="img-thumbnail" alt="Second Image Thumb Nail" width="175" height="175">
       <img src="https://github.com/44-563-Web-Apps-S24/44563-webapps-s24-assignment5-12bhargava/blob/main/Image%203.jpg?raw=true" class="img-thumbnail" alt="Third Image Thumb Nail" width="200" height="200">
     </div>
+    <style>
+      /* Custom styles */
+      caption {
+          caption-side: top;
+          font-size: 1.2em;
+          font-weight: bold;
+          margin-bottom: 10px;
+      }
+
+      th, td {
+          text-align: center;
+          vertical-align: middle !important;
+      }
+
+      thead {
+          background-color: #007bff;
+          color: #ffffff;
+      }
+
+      tbody tr:nth-child(odd) {
+          background-color: #f8f9fa;
+      }
+
+      tbody tr:hover {
+          background-color: #e2e6ea;
+      }
+  </style>
+  <title>Bootstrap Table</title>
+</head>
+<body>
+  <div class="container mt-4">
+      <table class="table">
+          <caption>Table of Letters, Drinks, Stars, and Fish</caption>
+          <thead>
+              <tr>
+                  <th scope="col">Letter</th>
+                  <th scope="col">Drink</th>
+                  <th scope="col">Star Name</th>
+                  <th scope="col">Fish</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <th scope="row">A</th>
+                  <td>Apple Juice</td>
+                  <td>Aldebaran</td>
+                  <td>Angelfish</td>
+              </tr>
+              <tr>
+                  <th scope="row">B</th>
+                  <td>Blueberry Smoothie</td>
+                  <td>Betelgeuse</td>
+                  <td>Barracuda</td>
+              </tr>
+              <tr>
+                  <th scope="row">C</th>
+                  <td>Cola</td>
+                  <td>Canopus</td>
+                  <td>Cod</td>
+              </tr>
+              <tr>
+                  <th scope="row">D</th>
+                  <td>Decaf Coffee</td>
+                  <td>Deneb</td>
+                  <td>Dolphinfish</td>
+              </tr>
+              <tr>
+                  <th scope="row">E</th>
+                  <td>Espresso</td>
+                  <td>El Nath</td>
+                  <td>Eel</td>
+              </tr>
+              <tr>
+                  <th scope="row">F</th>
+                  <td>Fruit Punch</td>
+                  <td>Fomalhaut</td>
+                  <td>Flounder</td>
+              </tr>
+          </tbody>
+      </table>
+  </div>
 
 </body>
 </html>
